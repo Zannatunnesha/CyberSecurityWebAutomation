@@ -10,7 +10,7 @@ public class RiskAssessment extends BaseDriver {
 	public void openUrl() throws InterruptedException {
 		driver.get("https://main.techforing.com/");
 		driver.manage().window().maximize();
-		Thread.sleep(50000);
+		Thread.sleep(5000);
 	}
 
 	@Test(priority = 1)
@@ -21,7 +21,7 @@ public class RiskAssessment extends BaseDriver {
 		//for window handling
 				ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 				driver.switchTo().window(tabs.get(1));
-				Thread.sleep(90000);
+				Thread.sleep(9000);
 				
         WebElement req_call = driver.findElement(By.linkText("before"));
 		req_call.click();

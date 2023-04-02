@@ -25,12 +25,15 @@ public class AboutUs extends BaseDriver{
 		//for window handling
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
-		Thread.sleep(90000);	
+		Thread.sleep(9000);	
 	//get protected
 		WebElement get_protected = driver.findElement(By.cssSelector(".fa-arrow-right"));
 		//for scrolling
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", get_protected);
 				get_protected.click();
 				Thread.sleep(2000);
-	}
-	}
+	//breach prevention
+WebElement get_protected1 = driver.findElement(By.cssSelector(".fa-arrow-right"));			
+get_protected1.click();
+Thread.sleep(3000);
+}}

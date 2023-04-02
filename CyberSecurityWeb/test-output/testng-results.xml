@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T17:12:03 BDT" name="Default suite" finished-at="2023-03-27T17:13:24 BDT" duration-ms="80720">
+  <suite started-at="2023-04-01T20:39:40 BDT" name="Default suite" finished-at="2023-04-01T20:41:54 BDT" duration-ms="134371">
     <groups>
     </groups>
-    <test started-at="2023-03-27T17:12:03 BDT" name="Default test" finished-at="2023-03-27T17:13:24 BDT" duration-ms="80720">
+    <test started-at="2023-04-01T20:39:40 BDT" name="Default test" finished-at="2023-04-01T20:41:54 BDT" duration-ms="134371">
       <class name="signIn">
-        <test-method is-config="true" signature="start()[pri:0, instance:signIn@6892b3b6]" started-at="2023-03-27T17:11:52 BDT" name="start" finished-at="2023-03-27T17:12:03 BDT" duration-ms="11525" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:signIn@6892b3b6]" started-at="2023-04-01T20:37:52 BDT" name="start" finished-at="2023-04-01T20:39:40 BDT" duration-ms="107103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="openUrl()[pri:0, instance:signIn@6892b3b6]" started-at="2023-03-27T17:12:03 BDT" name="openUrl" finished-at="2023-03-27T17:12:18 BDT" duration-ms="14608" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:signIn@6892b3b6]" started-at="2023-04-01T20:39:40 BDT" name="openUrl" finished-at="2023-04-01T20:40:21 BDT" duration-ms="40716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="test_login()[pri:1, instance:signIn@6892b3b6]" started-at="2023-03-27T17:12:18 BDT" name="test_login" finished-at="2023-03-27T17:13:24 BDT" duration-ms="66007" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="test_login()[pri:0, instance:signIn@6892b3b6]" started-at="2023-04-01T20:40:21 BDT" name="test_login" finished-at="2023-04-01T20:41:54 BDT" duration-ms="93277" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Unable to locate element: #\#id_birth_date
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Element <a class="dropdown-item ps-3" href="//main.techforing.com/account/logout/"> could not be scrolled into view
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [77bf30c2-814b-4ada-aca4-b0db939f4548, findElement {using=id, value=#id_birth_date}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:31463, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3604, moz:profile: C:\Users\LSP\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:31463/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 77bf30c2-814b-4ada-aca4-b0db939f4548]]>
+Command: [df5b2b36-a1c3-4b0f-9c85-cbe6fabe56f4, clickElement {id=b5307b7e-012b-48b1-980a-f16c0e347340}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:35549, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6040, moz:profile: C:\Users\LSP\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:35549/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (df5b2b36-a1c3-4b0f-9c85-cbe6fabe56f4)] -> css selector: [href='//main.techforing.com/account/logout/']]
+Session ID: df5b2b36-a1c3-4b0f-9c85-cbe6fabe56f4]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #\#id_birth_date
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a class="dropdown-item ps-3" href="//main.techforing.com/account/logout/"> could not be scrolled into view
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [77bf30c2-814b-4ada-aca4-b0db939f4548, findElement {using=id, value=#id_birth_date}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:31463, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3604, moz:profile: C:\Users\LSP\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:31463/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 77bf30c2-814b-4ada-aca4-b0db939f4548
+Command: [df5b2b36-a1c3-4b0f-9c85-cbe6fabe56f4, clickElement {id=b5307b7e-012b-48b1-980a-f16c0e347340}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:35549, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6040, moz:profile: C:\Users\LSP\AppData\Local\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:35549/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (df5b2b36-a1c3-4b0f-9c85-cbe6fabe56f4)] -> css selector: [href='//main.techforing.com/account/logout/']]
+Session ID: df5b2b36-a1c3-4b0f-9c85-cbe6fabe56f4
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,11 +48,9 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at signIn.test_login(signIn.java:75)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at signIn.test_login(signIn.java:95)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,13 +81,13 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login -->
       </class> <!-- signIn -->
       <class name="BaseDriver$Login">
-        <test-method signature="openUrl()[pri:0, instance:BaseDriver$Login@6e9175d8]" started-at="2023-03-27T17:12:03 BDT" name="openUrl" finished-at="2023-03-27T17:12:03 BDT" duration-ms="8" status="FAIL">
+        <test-method signature="openUrl()[pri:0, instance:BaseDriver$Login@6e9175d8]" started-at="2023-04-01T20:39:40 BDT" name="openUrl" finished-at="2023-04-01T20:39:40 BDT" duration-ms="5" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.this$0.driver" is null]]>
@@ -131,7 +129,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method is-config="true" signature="end()[pri:0, instance:BaseDriver$Login@6e9175d8]" started-at="2023-03-27T17:13:24 BDT" name="end" finished-at="2023-03-27T17:13:24 BDT" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="end()[pri:0, instance:BaseDriver$Login@6e9175d8]" started-at="2023-04-01T20:41:54 BDT" name="end" finished-at="2023-04-01T20:41:54 BDT" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.this$0.driver" is null]]>
